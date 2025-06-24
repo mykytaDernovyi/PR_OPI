@@ -1,4 +1,49 @@
-h1 {
-  color:red;
-  font-size: 41px;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  max-width: 700px;
+}
+
+.cat-image {
+  flex: 1;
+  background-image: url('photo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-width: 300px;
+}
+
+.cat-info {
+  flex: 2;
+  padding: 24px;
+}
+
+.cat-info h1 {
+  margin-top: 0;
+  font-size: 28px;
+  color: #3b2f2f;
+}
+
+.cat-info p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.tagline {
+  font-style: italic;
+  color: #8b5e3c;
+  margin-bottom: 12px;
 }
